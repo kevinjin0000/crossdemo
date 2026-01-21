@@ -1,0 +1,24 @@
+#encoding:utf-8
+#!/usr/bin/python
+
+
+heigh = float(input("请输入身高cm:"))
+print('heigh',type(heigh),heigh)
+
+weight = float(input("请输入体重kg:"))
+print('weight',type(weight),weight)
+
+BMI = weight / (heigh * heigh)
+print('BMI',type(BMI),BMI)
+
+if BMI < 18.5:
+    print('体重偏轻')
+elif BMI >= 24:
+    print('体重偏重')
+else:
+    print('体重正常')
+
+
+
+
+
